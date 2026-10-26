@@ -1,4 +1,4 @@
-#define BLYNK_TEMPLATE_ID "TMPL6TqnGteLW"
+#define BLYNK_TEMPLATE_ID "isi_dengan_template_id_anda" // Ganti dengan Template ID Anda dari Blynk
 #define BLYNK_TEMPLATE_NAME "Monitoring Kualitas Udara"
 
 #define BLYNK_PRINT Serial
@@ -10,11 +10,11 @@
 #include <LiquidCrystal_I2C.h>
 
 // Kredensial WiFi Anda
-char ssid[] = "AndroidAP";       // Ganti dengan nama WiFi kamu
-char pass[] = "M4!nG0@L0F\\if3";  // Ganti dengan password WiFi kamu
+char ssid[] = "isi_dengan_nama_wifi_anda";       // Ganti dengan nama WiFi kamu
+char pass[] = "isi_dengan_password_wifi_anda";  // Ganti dengan password WiFi kamu
 
 // Auth Token Blynk Anda
-char auth[] = "2IBCknr9MjLEFvx0rV4tfWL_Q8uXgYxL"; // Ganti dengan Auth Token Anda dari email Blynk
+char auth[] = "isi_dengan_auth_token_anda"; // Ganti dengan Auth Token Anda dari email Blynk
 
 // --- Konfigurasi LCD I2C ---
 // Pastikan alamat I2C (0x27) sudah benar sesuai hasil I2C scanner Anda.
